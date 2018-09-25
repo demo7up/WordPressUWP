@@ -428,4 +428,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   <data name="Shell_Kodi" xml:space="preserve">
     <value>Kodi</value>
   </data>
+  <data name="KodiPage_Title.Text" xml:space="preserve">
+    <value>KODI</value>
+  </data>
 </root>

@@ -2,7 +2,6 @@
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows.Input;
-
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using Windows.UI.Xaml;
@@ -23,7 +22,7 @@ namespace WordPressUWP.ViewModels
         private const string NarrowStateName = "NarrowState";
         private const double WideStateMinWindowWidth = 640;
         private const double PanoramicStateMinWindowWidth = 1024;
-
+    
         public NavigationServiceEx NavigationService
         {
             get
@@ -198,7 +197,7 @@ namespace WordPressUWP.ViewModels
             // Edit String/en-US/Resources.resw: Add a menu item title for each page
             _primaryItems.Add(new ShellNavigationItem("Shell_News".GetLocalized(), Symbol.Home, typeof(NewsViewModel).FullName));
 
-            _primaryItems.Add(new ShellNavigationItem("Shell_Kodi".GetLocalized(), Symbol.Target, typeof(KodiViewModel).FullName));
+            _primaryItems.Add(new ShellNavigationItem("Shell_Kodi".GetLocalized(), Symbol.Library, typeof(KodiViewModel).FullName));
 
 
 
