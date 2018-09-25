@@ -417,4 +417,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   <data name="Notification_CommentFalse" xml:space="preserve">
     <value>Comments are not enabled for this post at this time.</value>
   </data>
+  <data name="Comments_Duplicate" xml:space="preserve">
+    <value>Duplicate comment detected; it looks as though you&amp;#8217;ve already said that!</value>
+    <comment>Duplicate Exception Error Message Thrown</comment>
+  </data>
+  <data name="Notification_Duplicate" xml:space="preserve">
+    <value>Duplicate Comment Dectected</value>
+    <comment>Duplicate Error Message</comment>
+  </data>
 </root>

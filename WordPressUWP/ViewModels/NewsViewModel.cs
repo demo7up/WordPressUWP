@@ -212,12 +212,16 @@ namespace WordPressUWP.ViewModels
                 {
                     MessengerInstance.Send(new NotificationMessage(res.GetString("Notification_CommentFalse")));
                 }
+                else if (e.Message == res.GetString("Comments_Duplicate"))
+                {
+                    MessengerInstance.Send(new NotificationMessage(res.GetString("Notification_Duplicate")));
+                }
                 else
                 {
                     MessengerInstance.Send(new NotificationMessage(res.GetString("Notification_GenericError")));
                 }
-
             }
+
             finally
             {
                 IsCommenting = false;

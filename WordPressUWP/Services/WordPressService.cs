@@ -120,8 +120,9 @@ namespace WordPressUWP.Services
             catch
             {
                 var res = ResourceLoader.GetForCurrentView();
-                var msg = res.GetString("Notification_DownloadPostsFailed");
-                Messenger.Default.Send(new NotificationMessage(msg));
+                //Disabled this Exception Messasge because of the JSON Error: "The page number requested is larger than the number of pages available." if the criteria doesnt match
+                //var msg = res.GetString("Notification_DownloadPostsFailed");
+                //Messenger.Default.Send(new NotificationMessage(msg));
             }
             IsLoadingPosts = false;
             return posts;
