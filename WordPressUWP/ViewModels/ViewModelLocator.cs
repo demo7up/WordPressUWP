@@ -22,6 +22,7 @@ namespace WordPressUWP.ViewModels
             SimpleIoc.Default.Register<ShellViewModel>();
             SimpleIoc.Default.Register<SettingsService>();
             Register<NewsViewModel, NewsPage>();
+            Register<KodiViewModel, KodiPage>();
             Register<NewsDetailViewModel, NewsDetailPage>();
             Register<SettingsViewModel, SettingsPage>();
         }
@@ -35,6 +36,8 @@ namespace WordPressUWP.ViewModels
         public NewsDetailViewModel NewsDetailViewModel => ServiceLocator.Current.GetInstance<NewsDetailViewModel>();
 
         public NewsViewModel NewsViewModel => ServiceLocator.Current.GetInstance<NewsViewModel>();
+
+        public KodiViewModel KodiViewModel => ServiceLocator.Current.GetInstance<KodiViewModel>();
 
         public ShellViewModel ShellViewModel => ServiceLocator.Current.GetInstance<ShellViewModel>();
 

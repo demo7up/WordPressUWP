@@ -46,6 +46,7 @@ namespace WordPressUWP.Services
             var navigationService = ServiceLocator.Current.GetInstance<NavigationServiceEx>();
 
             navigationService.Navigate(typeof(NewsViewModel).FullName, args.Argument);
+            navigationService.Navigate(typeof(KodiViewModel).FullName, args.Argument);
 
             await Task.CompletedTask;
         }

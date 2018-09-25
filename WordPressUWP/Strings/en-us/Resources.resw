@@ -422,7 +422,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     <comment>Duplicate Exception Error Message Thrown</comment>
   </data>
   <data name="Notification_Duplicate" xml:space="preserve">
-    <value>Duplicate Comment Dectected</value>
+    <value>Duplicate Comment Detected</value>
     <comment>Duplicate Error Message</comment>
+  </data>
+  <data name="Shell_Kodi" xml:space="preserve">
+    <value>Kodi</value>
   </data>
 </root>

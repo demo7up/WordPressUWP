@@ -198,6 +198,9 @@ namespace WordPressUWP.ViewModels
             // Edit String/en-US/Resources.resw: Add a menu item title for each page
             _primaryItems.Add(new ShellNavigationItem("Shell_News".GetLocalized(), Symbol.Home, typeof(NewsViewModel).FullName));
 
+            _primaryItems.Add(new ShellNavigationItem("Shell_Kodi".GetLocalized(), Symbol.Target, typeof(KodiViewModel).FullName));
+
+
 
             if (Microsoft.Services.Store.Engagement.StoreServicesFeedbackLauncher.IsSupported())
             {

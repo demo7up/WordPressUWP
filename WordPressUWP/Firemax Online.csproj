@@ -169,6 +169,7 @@
     <Compile Include="Services\WhatsNewDisplayService.cs" />
     <Compile Include="Services\WordPressService.cs" />
     <Compile Include="ViewModels\NewsDetailViewModel.cs" />
+    <Compile Include="ViewModels\KodiViewModel.cs" />
     <Compile Include="ViewModels\NewsViewModel.cs" />
     <Compile Include="ViewModels\SettingsViewModel.cs" />
     <Compile Include="ViewModels\ShellNavigationItem.cs" />
@@ -182,6 +183,9 @@
     </Compile>
     <Compile Include="Views\NewsDetailPage.xaml.cs">
       <DependentUpon>NewsDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\KodiPage.xaml.cs">
+      <DependentUpon>KodiPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\NewsPage.xaml.cs">
       <DependentUpon>NewsPage.xaml</DependentUpon>
@@ -232,6 +236,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\NewsDetailPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\KodiPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
