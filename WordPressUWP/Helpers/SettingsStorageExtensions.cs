@@ -142,7 +142,7 @@ namespace WordPressUWP.Helpers
         }
 
 
-        public static PasswordCredential GetCredentialFromLocker(string username = "admin")
+        public static PasswordCredential GetCredentialFromLocker(string username = "")
         {
             PasswordCredential credential = null;
             var resourceName = Package.Current.DisplayName;
