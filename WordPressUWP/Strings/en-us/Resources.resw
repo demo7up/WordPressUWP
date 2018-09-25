@@ -411,4 +411,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   <data name="Notification_Unauthenticated" xml:space="preserve">
     <value>You have to log in first.</value>
   </data>
+  <data name="Comments_Disabled" xml:space="preserve">
+    <value>Sorry, comments are closed for this item.</value>
+  </data>
+  <data name="Notification_CommentFalse" xml:space="preserve">
+    <value>Comments are not enabled for this post at this time.</value>
+  </data>
 </root>

@@ -2,7 +2,7 @@
 {
     public static class Config
     {
-        public const string BaseUri = "https://windowsarea.de/";
+        public const string BaseUri = "https://firemax.online/";
         public static string WordPressUri = $"{BaseUri}wp-json/";
 
         // Push Notification Settings

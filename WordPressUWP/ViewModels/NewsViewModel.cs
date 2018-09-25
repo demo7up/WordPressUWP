@@ -206,6 +206,18 @@ namespace WordPressUWP.ViewModels
                     MessengerInstance.Send(new NotificationMessage(res.GetString("Notification_Unauthenticated")));
                 }
             }
+            catch (WordPressPCL.Models.WPException e)
+            {
+                if (e.Message == res.GetString("Comments_Disabled"))
+                {
+                    MessengerInstance.Send(new NotificationMessage(res.GetString("Notification_CommentFalse")));
+                }
+                else
+                {
+                    MessengerInstance.Send(new NotificationMessage(res.GetString("Notification_GenericError")));
+                }
+
+            }
             finally
             {
                 IsCommenting = false;

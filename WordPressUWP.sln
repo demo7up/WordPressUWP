@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordPressUWP", "WordPressUWP\WordPressUWP.csproj", "{84EF0AFE-443E-40DC-B9E5-F570F2FDAD2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firemax Online", "WordPressUWP\Firemax Online.csproj", "{84EF0AFE-443E-40DC-B9E5-F570F2FDAD2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
